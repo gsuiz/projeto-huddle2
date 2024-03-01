@@ -1,0 +1,214 @@
+@media screen and (min-width:760px) and (max-width:992px){
+    main{
+        padding-bottom:30% ;
+    }
+    .top__button{
+        width: 12%;
+        height: 98%; 
+    }
+    .box__content{
+        width: 80vw;
+    }
+    .box__btn{
+        width: 40%;
+    }
+    .box__img{
+        width: 70vw;
+        margin-bottom: 8%;
+    }
+    .container{
+        width: 42vw;
+        display: inline-block;
+        height:62vw;
+        vertical-align: top;
+        padding: 8% 2%;
+        margin: 2%;
+    }
+    .container__img{
+        height: 20vw;
+    }
+    .container__text h2{
+        margin-top:5%;
+    }
+    .center{
+        width: 100%;
+        text-align: center;
+    }
+    footer{
+        padding-bottom: 3%;
+    }
+    .box-bottom{
+         width: 65vw;
+    } 
+    .box-bottom h2{
+        font-size: 1.7em;
+    }
+    .box-bottom__btn{
+        width: 40%;
+    }
+    .flist{
+        width: 50%;
+        margin-right: 5%;
+        display: inline-block;
+    }
+    .flist--two{
+        vertical-align: top;
+        width: 20%;
+        line-height: 40px;
+    }
+    .flist--three{
+        width: 12%;
+        vertical-align: top;
+        line-height: 40px;
+    }
+    .list-center{
+        width: 90vw;
+        margin: auto;
+    }
+    .flist-icons__item{
+        margin: 2% 1%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    main{
+        padding-bottom: 10%;
+    }
+    .top{
+        height: 7vw;
+        padding:2% 5%;
+        background:hsl(192, 100%, 98%) url(../images/bg-hero-desktop.svg) center center no-repeat fixed;
+    }
+    .top__img{
+        width:17%;
+        max-width: 250px;
+    }
+    .top__button{
+       width: 10%;
+       max-width: 150px;
+       max-height: 35px;
+    }
+    .box{
+        background:hsl(192, 100%, 98%) url(../images/bg-hero-desktop.svg) center center no-repeat fixed;
+        padding: 0 5%;
+    }
+    .box__content{
+        text-align: left;
+        width: 37%;
+        max-width: 650px;
+        display: inline-block;
+        padding: 8% 0;
+        margin: 6% 0;
+    }
+    .box__img-right-desk{
+        width: 55%;
+        max-width: 750px;
+        display: inline-block;
+        vertical-align: top;
+        margin: 6% 0;
+    }
+    .box__img{
+        width: 100%;
+        margin: 0% 100px;
+        display: inline-block;
+    }
+    .container{
+        width: 80%;
+        margin: 5% auto;
+        text-align: left;
+        position: relative;
+        padding: 10% 3%;
+    }
+    .container__text{
+        width: 52%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .container>.container__img{
+        display: none;
+    }
+    .container__content-img{
+        width: 40%;
+        display: inline-block;
+        position: relative;
+    }
+    .container__content-img .container__img{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-30%, -30%);
+        margin-bottom:0%;
+    }
+    .container .container__content-img:nth-of-type(1n+2) .container__img{
+        display: inline-block;
+    }
+    .container:nth-of-type(2) .container__img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%, -30%);
+    }
+    .container:nth-of-type(2) .container__text{
+        margin-left: 7%;
+    }
+    footer{
+        padding-bottom: 0;
+    }
+    .box-bottom{
+        width: 50vw;
+        padding: 5% 0;
+    }
+    .box-bottom h2{
+        font-size: 28px;
+        margin-bottom: 5%;
+    }
+    .box-bottom__btn{
+        width: 40%;
+        height: 3.5em;
+        font-size: 1em;
+        border-radius: 40px;
+    }   
+    .brand{
+        margin-bottom: 3%;
+    }
+    .brand__logo{
+        width:3em;
+    }
+    .brand span{
+        font-size: 2.8em;
+    }
+    .flist{
+        width: 35%;
+        margin-right: 5%;
+        display: inline-block;
+    }
+    .flist--two{
+        vertical-align: top;
+        width: 15%;
+        line-height: 40px;
+    }
+    .flist--three{
+        width: 8%;
+        vertical-align: top;
+        line-height: 40px;
+    }
+    .list-center{
+        width: 90vw;
+        margin: auto;
+    }
+    .flist-icons{
+        display: inline-block;
+        width: 20%;
+        vertical-align: top;
+        position: relative;
+    }
+    .flist-icons__item{
+        margin: 2% 3%;
+    }
+    .flist-icons__cright{
+        position: absolute;
+        width: 25vw;
+        top:230px;
+    }
+}
